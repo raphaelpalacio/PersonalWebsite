@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Customizations
+
+This project now includes a basic Three.js scene and a profile component.
+The 3D cube is rendered by the `ThreeScene` component and Three.js is loaded
+from a CDN in `public/index.html`. A simple `Profile` component displays a
+placeholder avatar and text. `App.js` assembles these pieces with a header
+titled "My Profile".
+The Jest test has been updated to expect the profile heading.
+
 ## Available Scripts
 
 In the project directory, you can run:
